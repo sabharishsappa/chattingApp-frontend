@@ -12,7 +12,6 @@ Desktop.ini
 node_modules/
 
 # Build and configuration files
-/build/
 /public/build/
 
 # Package manager files
