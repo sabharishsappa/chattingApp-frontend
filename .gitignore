@@ -49,17 +49,6 @@ package-lock.json
 *.sublime-project
 *.sublime-workspace
 
-# Images and media
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.ico
-*.svg
-*.webp
-*.mp4
-*.mp3
-*.wav
 
 # Fonts
 *.woff
