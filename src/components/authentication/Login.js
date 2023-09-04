@@ -51,7 +51,7 @@ const Login = () => {
       const { data } = await axios(
         {
           method: "POST",
-          url: "/api/user/login",
+          url: "https://chatting-app-backend-by-sabharish.onrender.com/api/user/login",
           data: { email, password },
         },
         config

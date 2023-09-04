@@ -96,7 +96,11 @@ const SideDrawer = () => {
           Authorization: `Bearer ${user.jwtToken}`,
         },
       };
-      const { data } = await axios.post(`/api/chats`, { userId }, config);
+      const { data } = await axios.post(
+        `https://chatting-app-backend-by-sabharish.onrender.com/api/chats`,
+        { userId },
+        config
+      );
 
       if (!chats.find((c) => c._id === data._id)) setChats([data, ...chats]);
       setSelectedChat(data);

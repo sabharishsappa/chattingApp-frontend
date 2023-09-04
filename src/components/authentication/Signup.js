@@ -111,7 +111,7 @@ const Signup = () => {
       };
 
       const { data } = await axios.post(
-        "/api/user",
+        "https://chatting-app-backend-by-sabharish.onrender.com/api/user",
         { name, email, password, profilePic },
         config
       );
