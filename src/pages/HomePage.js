@@ -22,7 +22,9 @@ const HomePage = () => {
     const userInfo = localStorage.getItem("userInfo");
     if (userInfo) {
       console.log(history);
-      history.push("/chats");
+      history.push(
+        "https://chatting-app-backend-by-sabharish.onrender.com/api/chats"
+      );
     }
   }, [history]);
 

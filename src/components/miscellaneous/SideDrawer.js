@@ -50,7 +50,7 @@ const SideDrawer = () => {
 
   const logoutHandler = () => {
     localStorage.removeItem("userInfo");
-    history.push("/");
+    history.push("https://chatting-app-backend-by-sabharish.onrender.com/api/");
   };
 
   const handleSearch = async () => {

@@ -17,7 +17,9 @@ const ChatProvider = ({ children }) => {
       setUser(userInfo);
     } else {
       // If userInfo doesn't exist or userInfo.user is not defined, redirect to the login page
-      history.push("/");
+      history.push(
+        "https://chatting-app-backend-by-sabharish.onrender.com/api/"
+      );
     }
   }, [history]);
 
