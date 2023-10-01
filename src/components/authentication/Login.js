@@ -69,7 +69,9 @@ const Login = () => {
       setUser(data);
       setLoading(false);
 
-      history.push("/chats");
+      history.push(
+        "https://chatting-app-backend-by-sabharish.onrender.com/api/chats"
+      );
     } catch (error) {
       toast({
         title: "Error Occured in login!!",
